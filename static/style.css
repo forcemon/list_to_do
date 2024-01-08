@@ -1,0 +1,39 @@
+body {
+    background-color: #f7f7f7; /* Color de fondo suave */
+}
+
+.container {
+    max-width: 700px; /* Ajustar según preferencias */
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    color: #007bff; /* Color azul de Bootstrap para el título */
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tarea-editable {
+    margin-right: 1rem; /* Espacio entre el input y los botones */
+    flex-grow: 1; /* Permitir que el input crezca */
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-editar, .btn-danger, .btn-mover {
+    margin-left: 0.5rem; /* Espacio entre botones */
+}
+
+.btn-mover i {
+    color: white; /* Color de los iconos de las flechas */
+}
